@@ -1,0 +1,26 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:issuer-verifier-express.delightfulriver-e0d8cb6b.westeurope.azurecontainerapps.io",
+    "verificationMethod": [
+      {
+        "id": "did:web:issuer-verifier-express.delightfulriver-e0d8cb6b.westeurope.azurecontainerapps.io#owner",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:issuer-verifier-express.delightfulriver-e0d8cb6b.westeurope.azurecontainerapps.io",
+        "publicKeyJwk": {
+            "kty": "EC",
+            "crv": "secp256k1",
+            "x": "2gO8G+6LkrGC9tXlNy9uGdW4+2iIGxnDI+YATPF6Ccs=",
+            "y": "Wo5LaUwTGXocSbo0QnkZ5RZTBTwhVMU5ZirH9wrjcp8="
+          }
+      }
+    ],
+    "authentication": [
+      "did:web:issuer-verifier-express.delightfulriver-e0d8cb6b.westeurope.azurecontainerapps.io#owner"
+    ],
+    "assertionMethod": [
+      "did:web:issuer-verifier-express.delightfulriver-e0d8cb6b.westeurope.azurecontainerapps.io#owner"
+    ]
+  }
